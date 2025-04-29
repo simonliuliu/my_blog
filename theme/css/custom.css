@@ -1,0 +1,29 @@
+/* 统一所有超链接颜色 */
+a {
+    color: #222;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  /* 文章标题颜色 */
+  .article-title a {
+    color: #222;
+    font-weight: bold;
+  }
+  
+  .article-title a:hover {
+    color: #000;
+  }
+  
+  /* 文章作者/分类/标签链接 */
+  .article-meta a {
+    color: #555;
+  }
+  
+  .article-meta a:hover {
+    color: #000;
+  }
